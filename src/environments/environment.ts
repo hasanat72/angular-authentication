@@ -3,7 +3,26 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  // Import the functions you need from the SDKs you need
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  firebase: {
+    apiKey: "AIzaSyDNnY6NO3-aGWwmapWV65EzZGlYuhiIcqc",
+    authDomain: "fir-6e23c.firebaseapp.com",
+    projectId: "fir-6e23c",
+    storageBucket: "fir-6e23c.appspot.com",
+    messagingSenderId: "67751503691",
+    appId: "1:67751503691:web:fdc1c6c98dbb6916b0aace",
+    measurementId: "G-FGRP6PR4L2"
+  },
+
+// Initialize Firebase
+
 };
 
 /*
